@@ -1,0 +1,250 @@
+body{
+    font-family: "Lato", serif;
+}
+img{
+    height: 100%;
+    width:100%;
+}
+/* flower part design start */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+    padding:10px 40px;
+    background-color:#E554731A ;
+   
+}
+.flower, .img-box{
+    flex: 1;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800px;
+}
+p{
+    font-size: 18px;
+  color:#27272799;
+  /* text-align: justify; */
+  
+}
+.btn-primary{
+    background-color: #E55473;
+    color:#ffff ;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.img-box{
+    width: 800px;
+    height: 600px;
+}
+/* flower part design end */
+
+
+
+/* sesction flower part start */
+.featured-container{
+    background-color:rgb(247, 242, 242);
+    margin-top:50px;
+    /* border: 1px solid rgb(241, 238, 238); */
+    border-radius: 8px;
+    overflow: hidden;
+}
+.featured{
+text-align: center;
+margin-bottom:70px;
+line-height:30px;
+}
+    .flower-img{
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-bottom:100px;
+    }  
+    .child{
+        flex: 1;
+        margin: 0px 15px ;     
+    }
+    .first-img{
+        height: 400px;
+        width:300px;
+        padding:100px 70px 0px  70px;
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(167, 33, 98, 0.15);
+    }
+    .second-img{
+        height:400px ;
+        width: 370px;
+     padding:100px 70px 0px  70px;
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(5, 151, 160, 0.15);
+    }
+    .third-img{
+        height: 400px;
+        width:470px;
+        padding:100px 70px 0px  70px;
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(71, 125, 17, 0.15);
+    }
+    h2{
+        font-size:40px;
+        font-weight:800px;
+      padding-top: 40px;
+      text-align: center;
+    }
+    h4{
+        text-align: center;
+        line-height:5px;
+    }
+    /* sesction flower part end */
+
+    /* main section er vitorer element er css er kaj start */
+    .goods-container{
+        border-radius: 8px;
+         background: rgba(39, 39, 39, 0.05);
+        height:300px;
+        margin-top:50px;
+        border: 2px solid black;
+       
+    }
+    .goods{
+        display: flex;
+        justify-content: center;
+        padding-top:50px;
+        gap: 170px;
+    
+        
+    }
+    .goods-img{
+        border: 2px dotted black;
+        height:100px;
+        width:70px;
+    }
+    /* main section er vitorer element er css er kaj end */
+    
+
+    /* Hot deal! sale up to 25% ai section er kaj start  */
+    .sale-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        /* border: 2px solid black; */
+        padding-top:100px;
+        padding-bottom:100px;
+      padding-left: 100px;
+      padding-right: 150px;
+        gap: 180px;
+        border-radius: 8px;
+        background: rgba(229, 84, 115, 0.05);
+        /* width: 100%; */
+    }
+    .sale-description , .sale-img{
+        flex:1;
+    }
+    .sale-img{
+        height:420px ;
+        width: 300px;
+     border:2px dotted gray;
+    }
+    h3{
+        text-align: center;
+        font-size:25px;
+        font-weight: 800px;
+        line-height:10px;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        /* height: 100vh;  */
+        /* margin-right: 90px;
+        text-align: center; */
+    }
+    .sale-description p{
+        text-align: justify;
+    }
+    /* .btn-secondary{
+        background-color: #E55473;
+        color:#ffff ;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 800px;
+    } */
+    /* Hot deal! sale up to 25% ai section er kaj end */
+
+
+    /* .instagram er kaj :start */
+    .instagram-container{
+        display: grid;
+        gap:30px;
+    }
+    .instagram{
+            text-align: center;
+            line-height:30px;     
+    }
+    .instagram-img{
+        display: flex;
+        gap:10px;
+         height:350px;
+        width:300px;
+    }
+    .instagram-img img{
+        border: 2px dotted gray;
+    }
+
+ /* .instagram er kaj end */
+
+ /* Get The Latest Deals start   */
+ .price-container{
+    background-image: url("/Flower\ Asset/Rectangle 9.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-top:50px;
+    width: 1250px;
+    height:350px;
+    padding-top: 40px;
+    
+ }
+.price-description{
+    line-height:5px;
+}
+    .email{
+       display: flex;
+       gap: 15px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+    .email input{
+    width: 500px;
+    height:30px;
+    }
+    .button-container{
+        display: flex;
+    }
+     /* Get The Latest Deals end */
+
+     /* footer er kaj start  */
+     .footer-section{
+        background-color: black;
+        color: white;
+        height: 400px;
+        border-radius:8px;
+        padding-top: 40px;
+     }
+     .paragraph{
+        color: white;
+     }
+     span{
+        color: #E55473;
+     }
