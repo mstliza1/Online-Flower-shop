@@ -108,7 +108,7 @@ line-height:30px;
          background: rgba(39, 39, 39, 0.05);
         height:300px;
         margin-top:50px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
        
     }
     .goods{
@@ -120,9 +120,9 @@ line-height:30px;
         
     }
     .goods-img{
-        border: 2px dotted black;
-        height:100px;
-        width:70px;
+        /* border: 2px dotted black;*/
+         height:120px; 
+        /* width:170px; */
     }
     /* main section er vitorer element er css er kaj end */
     
@@ -147,9 +147,9 @@ line-height:30px;
         flex:1;
     }
     .sale-img{
-        height:420px ;
-        width: 300px;
-     border:2px dotted gray;
+        height:450px ; 
+         width: 300px;
+     /* border:2px dotted gray; */
     }
     h3{
         text-align: center;
