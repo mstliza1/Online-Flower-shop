@@ -204,7 +204,7 @@ line-height:30px;
 
  /* Get The Latest Deals start   */
  .price-container{
-    background-image: url("/Flower\ Asset/Rectangle 9.png");
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
     background-size: cover;
     background-position: center;
     border-radius: 8px;
